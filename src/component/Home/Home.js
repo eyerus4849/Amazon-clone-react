@@ -8,81 +8,107 @@ function Home() {
             <div className="home__container">
             <img
           className="home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+          src="https://images-na.ssl-images-amazon.com/images/G/01/xcm/brand_truths/4_29_Update/C_TBDB_SMB_GW_hero_desktop_3000x1200_2x._CB670680788_.jpg"
           alt=""
         />
         <div className="home__row">
        <Product
         id="49538094"
-        title="Epic Racing Professional Gaming Chair with Adjustable Height, Full Recline and Headrest/Lumbar Support"
-        price={159.99}
+        title="Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 in S Mode, A515-43-R19L, Silver"
+        price={406.99}
         rating={4}
-        image="https://m.media-amazon.com/images/I/71t8UBllIgL._AC_UL320_.jpg"
+        image="https://m.media-amazon.com/images/I/41vMYgD92xL._AC_SY322_.jpg"
        />
        <Product
         id="12321341"
-        title="New Apple iMac with Retina 5K Display (27-inch, 8GB RAM, 256GB SSD Storage)"
-        price={1669}
+        title="Rolex Sky Dweller Champagne Dial GMT 18kt Yellow Gold Mens Watch 326938CAO"
+        price={59995}
         rating={5}
-        image="https://m.media-amazon.com/images/I/71KR2i6-WaL._AC_UY218_.jpg"
+        image="https://m.media-amazon.com/images/I/611tvg2GZYL._AC_UL800_FMwebp_QL65_.jpg"
        />
         </div>
         <div className="home__row">
         <Product
             id="4903850"
-            title="New Apple Watch Series 6 (GPS, 40mm) - Space Gray Aluminum Case with Black Sport Band"
-            price={499.99}
+            title="New Apple Watch Series 6 (GPS, 40mm) - Gold Aluminum Case with Pink Sand Sport Band"
+            price={454.99}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/71yOGVLGWpL._AC_SX679_.jpg"
+            image="https://m.media-amazon.com/images/I/71vhu3pSQcL._AC_SL1500_.jpg"
           />
 
           <Product
             id="99903850"
-            title="4K 60FPS Video Camera Camcorder Ultra HD 48MP YouTube Camera Vlogging WiFi Digital Camera Recorder IPS Touch Screen"
-            price={139.99}
+            title="Microsoft Xbox Series S 512GB Game All-Digital Console + 1 Xbox Wireless1 Controller, White - 1440p Gaming Resolution, 4K Streaming Media Playback, WiFi"
+            price={355.99}
             rating={4}
-            image="https://m.media-amazon.com/images/I/81eUw7H78UL._AC_UY218_.jpg"
+            image="https://m.media-amazon.com/images/I/61Q2hRo4BCL._SL1200_.jpg"
           />
           <Product
             id="3254354345"
-            title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
-            price={598.99}
+            title="2021 Wireless Earbuds, Tribit Qualcomm QCC3040 Bluetooth 5.2, 4 Mics CVC 8.0 Call Noise Reduction 50H Playtime Clear Calls Volume Control True Wireless Bluetooth Earbuds Earphones, FlyBuds C1 Black"
+            price={69.99}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+            image="https://m.media-amazon.com/images/I/61IRjjz7S7L._AC_UY545_FMwebp_QL65_.jpg"
           />
         </div>
         <div className="home__row">
        <Product
         id="90829332"
-        title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-        price={1094.98}
+        title="Total Gym XLS Men/Women Universal Total Body Training Home Gym Workout Machine with Squat Stand, Leg Pull, 2 Ankle Cuffs, and Exercise Chart"
+        price={1199.98}
         rating={4}
-        image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC_SL1500_.jpg"
+        image="https://m.media-amazon.com/images/I/51n+nZKYnSL._AC_UL800_FMwebp_QL65_.jpg"
        />
        
         </div>
         <div className="home__row">
           <Product
             id="903850"
-            title="2021 1080P Streaming Business Webcam with Microphone & Privacy Cover, AutoFocus, NexiGo N930P HD USB Web Camera, for Zoom Meeting YouTube Skype FaceTime"
-            price={69.99}
+            title="Echo (4th Gen) | With premium sound, smart home hub, and Alexa | Charcoal"
+            price={99.99}
             rating={5}
-            image="https://m.media-amazon.com/images/I/61KFXbnW13L._AC_UY218_.jpg"
+            image="https://m.media-amazon.com/images/I/71JB6hM6Z6L._AC_UY545_FMwebp_QL65_.jpg"
           />
           <Product
             id="8903851"
-            title="SAMSUNG 85-inch Class QLED Q950T Series  Smart TV with Alexa Built-in (QN85Q950TSFXZA, 2020 Model"
-            price={999.99}
+            title="Canon EOS Rebel T7 DSLR Camera Bundle with Canon EF-S 18-55mm f/3.5-5.6 is II Lens + 2pc SanDisk 32GB Memory Cards + Accessory Kit"
+            price={599.00}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/91GMSrYPaHL._AC_SL1500_.jpg"
+            image="https://m.media-amazon.com/images/I/71owuc65uYL._AC_UY545_FMwebp_QL65_.jpg"
           />
           <Product
             id="23445930"
-            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
-            price={98.99}
+            title="Movo iVlogger- iPhone/Android Compatible Vlogging Kit Phone Video Kit Accessories: Phone Tripod, Phone Mount, LED Light and Cellphone Shotgun Microphone for Phone Video Recording for YouTube, Vlog"
+            price={79.95}
             rating={5}
-            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+            image="https://m.media-amazon.com/images/I/61ItXbGY8JL._AC_SL1500_.jpg"
           />
+        </div>
+        <div className="home__row">
+       <Product
+        id="763512"
+        title="SAMSUNG 34-Inch Odyssey G5 Ultra-Wide Gaming Monitor with 1000R Curved Screen, 165Hz, 1ms, FreeSync Premium, WQHD (LC34G55TWWNXZA, 2020 Model), Black"
+        price={588.99}
+        rating={4}
+        image="https://m.media-amazon.com/images/I/61XDeaOrrKL._AC_UY545_FMwebp_QL65_.jpg"
+       />
+       
+        </div>
+        <div className="home__row">
+       <Product
+        id="51189124"
+        title="FEZIBO Dual Motor Height Adjustable Electric Standing Desk with Keyboard Tray, 55 x 24 Inch Sit Stand Table with Splice Board, Black Frame/Black and Rustic Brown Top"
+        price={339.99}
+        rating={4}
+        image="https://m.media-amazon.com/images/I/71b5IKBxZ9S._AC_SL1500_.jpg"
+       />
+       <Product
+        id="13321511"
+        title="BERLMAN Mid Back Mesh Office Chair Adjustable Height Desk Chair Swivel Chair Computer Chair with Armrest Lumbar Support (White)"
+        price={89.99}
+        rating={5}
+        image="https://m.media-amazon.com/images/I/71owWDr763L._AC_UL800_FMwebp_QL65_.jpg"
+       />
         </div>
             </div>
         </div>
