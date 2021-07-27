@@ -4,7 +4,7 @@ import Product from './Product'
 
 function Home() {
     return (
-        <div>
+        <div className="home">
             <div className="home__container">
             <img
           className="home__image"
@@ -38,16 +38,16 @@ function Home() {
 
           <Product
             id="99903850"
-            title="Microsoft Xbox Series S 512GB Game All-Digital Console + 1 Xbox Wireless1 Controller, White - 1440p Gaming Resolution, 4K Streaming Media Playback, WiFi"
+            title="Microsoft Xbox Series S 512GB Game All-Digital Console + 1 Xbox Wireless1 Controller"
             price={355.99}
             rating={4}
             image="https://m.media-amazon.com/images/I/61Q2hRo4BCL._SL1200_.jpg"
           />
           <Product
             id="3254354345"
-            title="2021 Wireless Earbuds, Tribit Qualcomm QCC3040 Bluetooth 5.2, 4 Mics CVC 8.0 Call Noise Reduction 50H Playtime Clear Calls Volume Control True Wireless Bluetooth Earbuds Earphones, FlyBuds C1 Black"
+            title="2021 Wireless Earbuds, Tribit Qualcomm QCC3040 Bluetooth 5.2, 4 Mics CVC 8.0 "
             price={69.99}
-            rating={4}
+            rating={2}
             image="https://m.media-amazon.com/images/I/61IRjjz7S7L._AC_UY545_FMwebp_QL65_.jpg"
           />
         </div>
@@ -78,7 +78,7 @@ function Home() {
           />
           <Product
             id="23445930"
-            title="Movo iVlogger- iPhone/Android Compatible Vlogging Kit Phone Video Kit Accessories: Phone Tripod, Phone Mount, LED Light and Cellphone Shotgun Microphone for Phone Video Recording for YouTube, Vlog"
+            title="Movo iVlogger- iPhone/Android Compatible Vlogging Kit Phone Video Kit Accessories "
             price={79.95}
             rating={5}
             image="https://m.media-amazon.com/images/I/61ItXbGY8JL._AC_SL1500_.jpg"

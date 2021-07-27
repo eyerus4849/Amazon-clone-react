@@ -36,8 +36,9 @@ function Product({ id, title, image, price, rating }) {
               <p key={i}>🌟</p>
             ))}
         </div>
+        <img src={image} alt="" />
       </div>
-      <img src={image} alt="" />
+      
       <button onClick={addToBasket}>Add to Basket</button>
     </div>
   );
