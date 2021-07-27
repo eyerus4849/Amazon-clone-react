@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './header.css'
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
@@ -12,6 +12,9 @@ function Header() {
       auth.signOut();
     }
   };
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
     return (
         <div className="header">
             <Link to="/">
