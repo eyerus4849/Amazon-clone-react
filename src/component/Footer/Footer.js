@@ -10,6 +10,7 @@ function Footer() {
       };
     return (
         <div className="footer">
+            
             <div className="back__top" onClick={scroll_top}>Back to top </div>
            
             <div className="top">

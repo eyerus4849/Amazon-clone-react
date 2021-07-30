@@ -1,17 +1,61 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './home.css'
 import Product from './Product'
-
+import NavigateNextIcon from '@material-ui/icons/NavigateNext';
+import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 function Home() {
+  let images=["https://images-na.ssl-images-amazon.com/images/G/01/xcm/brand_truths/4_29_Update/C_TBDB_SMB_GW_hero_desktop_3000x1200_2x._CB670680788_.jpg","https://images-na.ssl-images-amazon.com/images/G/01/digital/video/merch/2021/Other/RB-3968_SVOD_MultiTitle_GW_Test/AMZN_RB-3968_SVOD_MultiTitle_GW_Control_EN_GWBleedingHero_V2_3000x1200._CB668890782_.jpg","https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2021/img/Events/BTS/Homepage/2021_BTS_DesktopHero_3000x1200_Phase1_2x._CB669825959_.jpg","https://images-na.ssl-images-amazon.com/images/G/01/kindle/journeys/Nzg3NzIxZDct/Nzg3NzIxZDct-OWNiZTMxYTAt-w3000._CB664037480_.jpg","https://images-na.ssl-images-amazon.com/images/G/01/kindle/journeys/ZWUxZjhhODUt/ZWUxZjhhODUt-MGZhOGZmZjQt-w3000._CB663484184_.jpg"]
+  
+  const[count,Setcount]=useState(1)
+  const[image,Setimage]=useState(images[0])
+  const change_imge_next=()=>{
+    Setcount(count=>count+1)
+    if(count==5){
+      Setcount(1)
+      Setimage(images[0])
+    }
+   else if(count<5){
+      Setimage(images[count])
+    } 
+}
+  const change_imge_back=()=>{
+    Setcount((count)=>count-1)
+    if(count==1){
+      Setcount(4)
+      Setimage(images[4])
+    }
+    if(count>1){
+      Setimage(images[count-2])
+    }
+  }
+  
     return (
         <div className="home">
+           
             <div className="home__container">
-            <img
+    <div className="home__image" style={{
+        backgroundSize: "cover",
+        backgroundImage: `url(${image})`,
+        height:"400px",
+        backgroundRepeat:"no-repeat"
+      }}>
+         {/* <img
           className="home__image"
-          src="https://images-na.ssl-images-amazon.com/images/G/01/xcm/brand_truths/4_29_Update/C_TBDB_SMB_GW_hero_desktop_3000x1200_2x._CB670680788_.jpg"
+          src={image}
           alt=""
-        />
+        /> */}
+        <div className="navigate">
+        <div className="img_bttn_back" onClick={change_imge_back}>< NavigateBeforeIcon style={{ fontSize: 60 }} /></div>
+        <div className="img_bttn" onClick={change_imge_next}>< NavigateNextIcon style={{ fontSize: 60 }} /></div>
+        </div>
+        </div>
+        
+         
+   
+   
         <div className="home__row">
+        {/* <div className="img_bttn" onClick={change_imge_next}>< NavigateNextIcon style={{ fontSize: 60 }} /></div> */}
+   
        <Product
         id="49538094"
         title="Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 in S Mode, A515-43-R19L, Silver"
@@ -110,7 +154,9 @@ function Home() {
         image="https://m.media-amazon.com/images/I/71owWDr763L._AC_UL800_FMwebp_QL65_.jpg"
        />
         </div>
+        
             </div>
+            
         </div>
     )
 }
