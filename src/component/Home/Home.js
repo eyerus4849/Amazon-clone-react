@@ -49,11 +49,7 @@ function Home() {
         <div className="img_bttn" onClick={change_imge_next}>< NavigateNextIcon style={{ fontSize: 60 }} /></div>
         </div>
         </div>
-        
-         
-   
-   
-        <div className="home__row">
+           <div className="home__row">
         {/* <div className="img_bttn" onClick={change_imge_next}>< NavigateNextIcon style={{ fontSize: 60 }} /></div> */}
    
        <Product
