@@ -15,10 +15,11 @@
     padding-top: 80px; 
   }
   .home__row {
-    
+    z-index: 1;
     display: flex;
     margin-left: 5px;
     margin-right: 5px;
+    /* margin-top: -50px; */
   }
   .home {
     margin-left: auto;
